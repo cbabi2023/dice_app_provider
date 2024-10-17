@@ -19,8 +19,9 @@ class DiceAppController with ChangeNotifier {
     notifyListeners();
   }
 
+  // random logic to generate random numbers
   randomRollDice() {
     diceIndex = random.nextInt(6);
-    notifyListeners();
+    notifyListeners(); 
   }
 }
